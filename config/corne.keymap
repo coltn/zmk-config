@@ -32,9 +32,9 @@
 // | SHFT |CTL-Z|CTL-X  |CTL-C|CTL-V|CTL-Y|   |  0  |  1  |  2  |  3  |  /  | RALT |
 //                 | GUI |     | SPC&SHFT |   | ENT&SHFT |      | ALT |
                         bindings = <
-   &kp ESC    &kp PSCRN       &sk LCTRL RSHFT  &kp HOME       &kp END       &kp PG_UP         &kp COMMA   &kp N7   &kp N8 &kp N9    &kp EQUAL &kp BSPC
+   &kp ESC    &kp PSCRN       &sk LC(RSHFT)  &kp HOME       &kp END       &kp PG_UP         &kp COMMA   &kp N7   &kp N8 &kp N9    &kp EQUAL &kp BSPC
    &kp TAB &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp PG_DN   &kp DOT &kp N4 &kp N5 &kp N6 &kp MINUS &kp DEL
-   &kp RSHFT  &kp LCTRL Z   &kp LCTRL X &kp LCTRL C &kp LCTRL V  &kp LCTRL Y    &kp N0   &kp N1   &kp N2 &kp N3    &kp FSLH &kp RALT
+   &kp RSHFT  &kp LC(Z)   &kp LC(X) &kp LC(C) &kp LC(V)  &kp LC(Y)    &kp N0   &kp N1   &kp N2 &kp N3    &kp FSLH &kp RALT
                                     &kp LCTRL     &trans       &mt LSHFT SPACE      &mt RSHFT RET  &trans   &kp GUI
                         >;
                 };
